@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField]
     private int maxLives = 3;
+    [SerializeField]
     private int currentLives;
     private void Start()
     {
