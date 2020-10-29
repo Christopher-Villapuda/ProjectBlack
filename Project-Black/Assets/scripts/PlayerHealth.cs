@@ -26,6 +26,12 @@ public class PlayerHealth : MonoBehaviour
         DeathCheck();
     }
 
+    public void Heal(int amount)
+    {
+        currentLives += amount;
+        livesShown.text = currentLives.ToString();
+    }
+
     private void DeathCheck()
     {
        if(currentLives <= 0)
