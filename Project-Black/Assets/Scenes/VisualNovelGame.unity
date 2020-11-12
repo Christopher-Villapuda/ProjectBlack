@@ -488,7 +488,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -802.2, y: -566.38}
+  m_AnchoredPosition: {x: -1671.7, y: -1056.4}
   m_SizeDelta: {x: 358.57324, y: 67.23249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36634684
@@ -2182,7 +2182,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 32
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1600, y: 1200}
+  m_ReferenceResolution: {x: 3840, y: 2180}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -2785,7 +2785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 568155121}
+  selectedFlowchart: {fileID: 1330726532}
 --- !u!4 &401121802
 Transform:
   m_ObjectHideFlags: 1
@@ -4312,6 +4312,16 @@ GameObject:
   - component: {fileID: 568155387}
   - component: {fileID: 568155385}
   - component: {fileID: 568155386}
+  - component: {fileID: 568155392}
+  - component: {fileID: 568155393}
+  - component: {fileID: 568155401}
+  - component: {fileID: 568155396}
+  - component: {fileID: 568155395}
+  - component: {fileID: 568155400}
+  - component: {fileID: 568155398}
+  - component: {fileID: 568155397}
+  - component: {fileID: 568155399}
+  - component: {fileID: 568155394}
   m_Layer: 0
   m_Name: Chase
   m_TagString: Untagged
@@ -4349,7 +4359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.1002
     y: 303.7437
-    width: 85.964905
+    width: 87.40257
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4380,7 +4390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 172.96039
     y: 305.276
-    width: 120.175415
+    width: 123.766174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4413,7 +4423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 146.2841
     y: 488.74994
-    width: 140.35086
+    width: 145.58435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4445,7 +4455,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -290.19626
     y: 395.3205
-    width: 108.77191
+    width: 111.29865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4475,8 +4485,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 631.2323
-    y: 383.03378
-    width: 107.01753
+    y: 384.85196
+    width: 109.22073
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4505,7 +4515,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 513.34344
     y: 382.75702
-    width: 97.36841
+    width: 99.87009
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4538,7 +4548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 325.1887
     y: 386.54178
-    width: 157.89471
+    width: 162.2077
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4569,7 +4579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 166.36826
     y: 388.66956
-    width: 126.315765
+    width: 128.96097
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4614,7 +4624,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -147.49527
     y: 393.69766
-    width: 114.035065
+    width: 116.493454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4648,7 +4658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 22.41978
     y: 396.334
-    width: 108.77191
+    width: 112.337616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4689,7 +4699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 337.2572
     y: -55.693604
-    width: 76.31578
+    width: 77.01297
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4720,7 +4730,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.02188
     y: -54.517105
-    width: 110.5263
+    width: 113.37657
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4751,7 +4761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.11423
     y: 196.44765
-    width: 78.94736
+    width: 80.129845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4783,7 +4793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 356.23846
     y: 128.00742
-    width: 86.842094
+    width: 87.40257
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4796,6 +4806,7 @@ MonoBehaviour:
   - {fileID: 568155273}
   - {fileID: 568155272}
   - {fileID: 568155271}
+  - {fileID: 568155395}
   - {fileID: 568155177}
   suppressAllAutoSelections: 0
 --- !u!114 &568155107
@@ -4814,7 +4825,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 185.83492
     y: 134.4769
-    width: 130.70172
+    width: 135.19473
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4846,7 +4857,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -280.91827
     y: 37.983498
-    width: 99.12279
+    width: 100.90905
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4873,9 +4884,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 653.6921
-    y: 30.191269
-    width: 97.36841
+    x: 651.5182
+    y: 28.017359
+    width: 98.83113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4885,8 +4896,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 568155213}
+  - {fileID: 568155400}
+  - {fileID: 568155399}
+  - {fileID: 568155398}
   - {fileID: 568155274}
   - {fileID: 568155186}
+  - {fileID: 568155397}
   suppressAllAutoSelections: 0
 --- !u!114 &568155110
 MonoBehaviour:
@@ -4904,7 +4919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 522.9772
     y: 31.409119
-    width: 87.719284
+    width: 89.480484
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4936,7 +4951,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.10602
     y: 36.47748
-    width: 148.24557
+    width: 151.8181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4966,7 +4981,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 173.82806
     y: 36.787094
-    width: 116.66665
+    width: 118.57137
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4998,7 +5013,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 37.87081
     y: 304.25537
-    width: 85.964905
+    width: 87.40257
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5015,6 +5030,7 @@ MonoBehaviour:
   - {fileID: 568155310}
   - {fileID: 568155313}
   - {fileID: 568155147}
+  - {fileID: 568155394}
   - {fileID: 568155174}
   suppressAllAutoSelections: 0
 --- !u!114 &568155114
@@ -5033,7 +5049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 34.611794
     y: 228.1739
-    width: 87.719284
+    width: 89.480484
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5070,7 +5086,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.703735
     y: 134.36066
-    width: 102.63156
+    width: 105.064896
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5107,7 +5123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 1
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5136,7 +5152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -141.85364
     y: 34.36364
-    width: 104.38595
+    width: 106.10385
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5167,7 +5183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 22.785706
     y: 35.360657
-    width: 99.12279
+    width: 101.94801
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5203,7 +5219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5.061569
     y: -60.724136
-    width: 124.56138
+    width: 127.92202
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5236,7 +5252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 18.36364
     y: -147.81818
-    width: 100.87718
+    width: 102.98697
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5247,6 +5263,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 568155391}
   - {fileID: 568155149}
+  - {fileID: 568155401}
   - {fileID: 568155142}
   - {fileID: 568155141}
   - {fileID: 568155140}
@@ -5266,11 +5283,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 604.3727, y: 9.820206}
+  scrollPos: {x: 422.84375, y: 225.30287}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 321
-  zoom: 0.7600002
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5278,12 +5295,12 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 568155302}
-  selectedCommands:
-  - {fileID: 568155386}
+  - {fileID: 568155228}
+  selectedCommands: []
   variables:
   - {fileID: 568155145}
   - {fileID: 568155143}
+  - {fileID: 568155396}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -5322,7 +5339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 1
-  text: Right
+  text: Intersection
   description: 
   targetBlock: {fileID: 568155100}
   hideIfVisited: 0
@@ -5347,7 +5364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 1
-  text: Left
+  text: Bathroom
   description: 
   targetBlock: {fileID: 568155101}
   hideIfVisited: 0
@@ -6087,7 +6104,7 @@ MonoBehaviour:
   indentLevel: 1
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155131}
   durationOLD: 0
 --- !u!114 &568155131
@@ -6106,7 +6123,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 28.899532
     y: 492.13766
-    width: 86.842094
+    width: 89.480484
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6135,7 +6152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146.16576
     y: 320.05154
-    width: 87.719284
+    width: 89.480484
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6470,7 +6487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: '{i} Getting up the person limps out the room {/i}'
+  storyText: '{i} Getting up he limps out the room {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6849,7 +6866,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.62027
     y: -32.675453
-    width: 80.701744
+    width: 82.20776
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6928,7 +6945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  text: Back
+  text: Leave
   description: 
   targetBlock: {fileID: 568155099}
   hideIfVisited: 0
@@ -6978,7 +6995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  text: Back
+  text: Return to Intersection
   description: 
   targetBlock: {fileID: 568155100}
   hideIfVisited: 0
@@ -7003,7 +7020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  text: Engine
+  text: Engine Room
   description: 
   targetBlock: {fileID: 568155098}
   hideIfVisited: 0
@@ -7053,7 +7070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  text: Option Text
+  text: Return
   description: 
   targetBlock: {fileID: 568155094}
   hideIfVisited: 0
@@ -7178,7 +7195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 1
-  text: Right Door
+  text: Common Room
   description: 
   targetBlock: {fileID: 568155095}
   hideIfVisited: 0
@@ -7203,7 +7220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 1
-  text: Front Door
+  text: Forward
   description: 
   targetBlock: {fileID: 568155099}
   hideIfVisited: 0
@@ -7228,7 +7245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 1
-  text: Left Door
+  text: Auxilary Room
   description: 
   targetBlock: {fileID: 568155094}
   hideIfVisited: 0
@@ -7324,7 +7341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 338
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7396,7 +7413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 1
-  text: Right
+  text: Intersection
   description: 
   targetBlock: {fileID: 568155100}
   hideIfVisited: 0
@@ -7421,7 +7438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 1
-  text: Left
+  text: Bathroom
   description: 
   targetBlock: {fileID: 568155101}
   hideIfVisited: 0
@@ -7559,7 +7576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  text: Look at Poster
+  text: Look at wall posters
   description: 
   targetBlock: {fileID: 568155106}
   hideIfVisited: 0
@@ -7634,7 +7651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  text: Back
+  text: Return to Intersection
   description: 
   targetBlock: {fileID: 568155112}
   hideIfVisited: 0
@@ -7684,7 +7701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  text: Leave
+  text: Return to main hall
   description: 
   targetBlock: {fileID: 568155118}
   hideIfVisited: 0
@@ -7733,8 +7750,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 40
-  indentLevel: 0
-  text: Back
+  indentLevel: 1
+  text: Return to room
   description: 
   targetBlock: {fileID: 568155110}
   hideIfVisited: 0
@@ -7809,7 +7826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  text: Enter
+  text: Engine Room
   description: 
   targetBlock: {fileID: 568155110}
   hideIfVisited: 0
@@ -7834,7 +7851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  text: Front Door
+  text: Forward
   description: 
   targetBlock: {fileID: 568155111}
   hideIfVisited: 0
@@ -7859,7 +7876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  text: Right Door
+  text: Common Room
   description: 
   targetBlock: {fileID: 568155107}
   hideIfVisited: 0
@@ -7884,7 +7901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  text: Left Door
+  text: Auxilary Room
   description: 
   targetBlock: {fileID: 568155104}
   hideIfVisited: 0
@@ -7918,7 +7935,7 @@ MonoBehaviour:
     booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
-    booleanRef: {fileID: 568155145}
+    booleanRef: {fileID: 0}
     booleanVal: 0
 --- !u!114 &568155194
 MonoBehaviour:
@@ -7934,7 +7951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 1
-  text: Left
+  text: Intersection
   description: 
   targetBlock: {fileID: 568155112}
   hideIfVisited: 0
@@ -7959,7 +7976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 1
-  text: Right
+  text: Bathroom
   description: 
   targetBlock: {fileID: 568155117}
   hideIfVisited: 0
@@ -8828,7 +8845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.20776
     y: -172.1445
-    width: 82.45613
+    width: 83.24673
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8890,7 +8907,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 505.5625
     y: 631.93115
-    width: 84.21052
+    width: 85.324646
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9001,7 +9018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 1
-  text: Left
+  text: Intersection
   description: 
   targetBlock: {fileID: 568155112}
   hideIfVisited: 0
@@ -9026,7 +9043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 164
   indentLevel: 1
-  text: Right
+  text: Bathroom
   description: 
   targetBlock: {fileID: 568155117}
   hideIfVisited: 0
@@ -9588,7 +9605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 1
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10167,7 +10184,7 @@ MonoBehaviour:
   itemId: 237
   indentLevel: 0
   storyText: '{i} The caves begin to rumble, and a dark shadow seeps from the top
-    of the stairs'
+    of the stairs {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10263,8 +10280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 233
   indentLevel: 0
-  storyText: '{i} A cool and stale breeze wafts from the tunnel. {/i} {wi} Soft breathing
-    sounds can be heard.'
+  storyText: '{i} A cool and stale breeze wafts from the tunnel. {wi} Soft breathing
+    sounds can be heard. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10395,8 +10412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: '"As much as I hate it I have to go down here. {wi} I''ve already explored
-    everywhere else."'
+  storyText: '"As much as I hate it I have to go down here. {wi} I think I already
+    explored everywhere else."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10450,7 +10467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 175
   indentLevel: 0
-  storyText: '"That feels a lot better."'
+  storyText: '"Ahh. That feels a lot better."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10522,7 +10539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 173
   indentLevel: 0
-  storyText: '"Medkit Found"'
+  storyText: '{b} Medkit Found {/b}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10576,7 +10593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 179
   indentLevel: 0
-  storyText: '"Hmm. This might be useful information for the future."'
+  storyText: '"I don''t think I''ll be touching any thing electric any time soon."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10656,7 +10673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 176
-  indentLevel: 0
+  indentLevel: 1
   storyText: '"I think I''ve learned my lesson with touching things I don''t know
     how to use."'
   description: 
@@ -10739,7 +10756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 170
   indentLevel: 0
-  storyText: '"That''s a really big safe. {wi} Huh, it''s unlocked."'
+  storyText: '"That safe is bigger than my sister.. {wi} Huh, it''s unlocked."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10785,7 +10802,7 @@ MonoBehaviour:
   indentLevel: 1
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155280}
   durationOLD: 0
 --- !u!114 &568155280
@@ -10804,7 +10821,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 303.92242
     y: 490.26202
-    width: 91.22806
+    width: 92.59737
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -10852,7 +10869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 359
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11008,7 +11025,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.51688
     y: 304.85223
-    width: 104.38595
+    width: 107.14281
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11027,6 +11044,7 @@ MonoBehaviour:
   - {fileID: 568155361}
   - {fileID: 568155385}
   - {fileID: 568155291}
+  - {fileID: 568155392}
   suppressAllAutoSelections: 0
 --- !u!114 &568155291
 MonoBehaviour:
@@ -11314,7 +11332,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -431.96072
     y: 399.27127
-    width: 121.05261
+    width: 124.80514
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11330,6 +11348,7 @@ MonoBehaviour:
   - {fileID: 568155386}
   - {fileID: 568155304}
   - {fileID: 568155303}
+  - {fileID: 568155393}
   suppressAllAutoSelections: 0
 --- !u!114 &568155303
 MonoBehaviour:
@@ -11887,7 +11906,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155332}
   durationOLD: 0
 --- !u!114 &568155332
@@ -11906,7 +11925,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -157.24168
     y: 227.57239
-    width: 96.49121
+    width: 98.83113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -11956,7 +11975,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155335}
   durationOLD: 0
 --- !u!114 &568155335
@@ -11975,7 +11994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 155.74544
     y: 584.77527
-    width: 114.91226
+    width: 118.57137
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12048,7 +12067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 342
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12122,7 +12141,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155341}
   durationOLD: 0
 --- !u!114 &568155341
@@ -12141,7 +12160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 408.07877
     y: 492.27527
-    width: 79.824554
+    width: 81.16881
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12189,7 +12208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 362
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12263,7 +12282,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155346}
   durationOLD: 0
 --- !u!114 &568155346
@@ -12282,7 +12301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 510.07874
     y: 490.27527
-    width: 103.50876
+    width: 106.10385
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12330,7 +12349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 365
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12404,7 +12423,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155351}
   durationOLD: 0
 --- !u!114 &568155351
@@ -12423,7 +12442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 640.41205
     y: 488.77527
-    width: 113.157875
+    width: 115.45449
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12471,7 +12490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 368
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12545,7 +12564,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155356}
   durationOLD: 0
 --- !u!114 &568155356
@@ -12564,7 +12583,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 195.9324
     y: 239.39055
-    width: 81.57893
+    width: 83.24673
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12612,7 +12631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 346
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12732,7 +12751,7 @@ MonoBehaviour:
   indentLevel: 1
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155280}
   durationOLD: 0
 --- !u!114 &568155363
@@ -12751,7 +12770,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155364}
   durationOLD: 0
 --- !u!114 &568155364
@@ -12770,7 +12789,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -142.77518
     y: 491.97348
-    width: 120.175415
+    width: 122.72722
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12818,7 +12837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 336
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12915,7 +12934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 334
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12987,7 +13006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 306
   indentLevel: 0
-  text: Leave
+  text: Return to main hall
   description: 
   targetBlock: {fileID: 568155102}
   hideIfVisited: 0
@@ -13039,7 +13058,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155374}
   durationOLD: 0
 --- !u!114 &568155374
@@ -13057,8 +13076,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -302.7881
-    y: 298.04202
-    width: 108.77191
+    y: 296.22385
+    width: 111.29865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -13106,7 +13125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 332
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13230,7 +13249,7 @@ MonoBehaviour:
   indentLevel: 1
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 4
   targetBlock: {fileID: 568155131}
   durationOLD: 0
 --- !u!114 &568155381
@@ -13268,7 +13287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 351
   indentLevel: 0
-  storyText: The shadow pierces thier body as they run past
+  storyText: The shadow pierces their body as they run past
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13342,7 +13361,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 329.99838
     y: 227.30281
-    width: 92.105255
+    width: 93.63633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -13357,7 +13376,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &568155385
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13371,7 +13390,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &568155386
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13385,7 +13404,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &568155387
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13403,7 +13422,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &568155388
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13417,7 +13436,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &568155389
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13435,7 +13454,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &568155390
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13449,7 +13468,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &568155391
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13465,6 +13484,543 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &568155392
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 383
+  indentLevel: 0
+--- !u!114 &568155393
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 384
+  indentLevel: 0
+--- !u!114 &568155394
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 391
+  indentLevel: 0
+  storyText: '*I need to find a place to hide*'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &568155395
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 386
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 568155396}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &568155396
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: ReadPoster
+  value: 0
+--- !u!114 &568155397
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 389
+  indentLevel: 0
+--- !u!114 &568155398
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 388
+  indentLevel: 0
+--- !u!114 &568155399
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 390
+  indentLevel: 1
+  storyText: '"I don''t really need to use this right now."'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &568155400
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 387
+  indentLevel: 0
+  anyOrAllConditions: 0
+  conditions:
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 568155396}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  compareOperator: 0
+  anyVar:
+    variable: {fileID: 0}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &568155401
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 385
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 0beacbd3f18bf7b4d90affdcdca94440, type: 3}
+  volume: 0.3
+  waitUntilFinished: 0
 --- !u!1 &569486974
 GameObject:
   m_ObjectHideFlags: 0
@@ -15527,8 +16083,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 70
-    width: 100
+    y: 71
+    width: 97.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16207,10 +16763,6 @@ GameObject:
   - component: {fileID: 1148093607}
   - component: {fileID: 1148093606}
   - component: {fileID: 1148093605}
-  - component: {fileID: 1148093604}
-  - component: {fileID: 1148093603}
-  - component: {fileID: 1148093602}
-  - component: {fileID: 1148093600}
   - component: {fileID: 1148093644}
   - component: {fileID: 1148093643}
   - component: {fileID: 1148093642}
@@ -16233,21 +16785,13 @@ GameObject:
   - component: {fileID: 1148093625}
   - component: {fileID: 1148093624}
   - component: {fileID: 1148093623}
-  - component: {fileID: 1148093622}
   - component: {fileID: 1148093621}
-  - component: {fileID: 1148093620}
   - component: {fileID: 1148093619}
-  - component: {fileID: 1148093618}
-  - component: {fileID: 1148093617}
-  - component: {fileID: 1148093616}
-  - component: {fileID: 1148093615}
-  - component: {fileID: 1148093611}
   - component: {fileID: 1148093648}
   - component: {fileID: 1148093647}
   - component: {fileID: 1148093646}
   - component: {fileID: 1148093645}
   - component: {fileID: 1148093601}
-  - component: {fileID: 1148093649}
   - component: {fileID: 1148093650}
   - component: {fileID: 1148093653}
   - component: {fileID: 1148093652}
@@ -16262,9 +16806,9 @@ GameObject:
   - component: {fileID: 1148093660}
   - component: {fileID: 1148093661}
   - component: {fileID: 1148093662}
-  - component: {fileID: 1148093664}
   - component: {fileID: 1148093663}
   - component: {fileID: 1148093665}
+  - component: {fileID: 1148093600}
   m_Layer: 0
   m_Name: Introduction
   m_TagString: Untagged
@@ -16309,7 +16853,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.4375
     y: 67.30114
-    width: 96.969696
+    width: 97.016266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16333,13 +16877,13 @@ MonoBehaviour:
   - {fileID: 1148093612}
   - {fileID: 1148093660}
   - {fileID: 1148093658}
+  - {fileID: 1148093600}
   - {fileID: 1148093610}
   - {fileID: 1148093651}
   - {fileID: 1148093609}
   - {fileID: 1148093608}
   - {fileID: 1148093607}
   - {fileID: 1148093605}
-  - {fileID: 1148093604}
   suppressAllAutoSelections: 0
 --- !u!114 &1148093590
 MonoBehaviour:
@@ -16354,11 +16898,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 262.34845, y: 70.48955}
+  scrollPos: {x: 255.94728, y: 23.35201}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 479
-  zoom: 0.8800001
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -16367,7 +16911,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1148093633}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1148093632}
   variables: []
   description: 
   stepPause: 0
@@ -16476,7 +17021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.69016
     y: 164.29115
-    width: 109.0909
+    width: 110.759476
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16490,7 +17035,6 @@ MonoBehaviour:
   - {fileID: 1148093642}
   - {fileID: 1148093641}
   - {fileID: 1148093640}
-  - {fileID: 1148093649}
   suppressAllAutoSelections: 0
 --- !u!114 &1148093596
 MonoBehaviour:
@@ -16560,7 +17104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: '{i}A figure approaches a rusted iron bunker door. {/i}'
+  storyText: '{i}A man approaches the rusted iron bunker door. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16600,24 +17144,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1148093587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 23
+  itemId: 105
   indentLevel: 0
-  storyText: '{b}Bad End #1 ( Indecisive) {/b}'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 308062254}
+  duration: 0.5
+  fadeOut: 0
+  targetView: {fileID: 161417772}
+  waitUntilFinished: 1
+  fadeColor: {r: 1, g: 1, b: 1, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!114 &1148093601
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16643,81 +17185,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1148093602
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 21
-  indentLevel: 0
-  storyText: '{i} The figure is paralyzed with indecision. {wi} Precious seconds
-    lost that cost them their life.'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 308062254}
---- !u!114 &1148093603
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 51.234547
-    y: 197.97697
-    width: 111.36363
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 20
-  blockName: Door Timer
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1148093602}
-  - {fileID: 1148093600}
-  suppressAllAutoSelections: 0
---- !u!114 &1148093604
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab54728d981544842843ba6609b9a80a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 4
-  targetBlock: {fileID: 1148093603}
-  durationOLD: 0
 --- !u!114 &1148093605
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16759,7 +17226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -171.96008
     y: 154.16287
-    width: 161.36362
+    width: 167.90231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16838,7 +17305,7 @@ MonoBehaviour:
   itemId: 14
   indentLevel: 0
   storyText: '{i}They turn around to see a large mushroom plume rise into the air.
-    {i} '
+    {/i} '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16879,33 +17346,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 308062254}
---- !u!114 &1148093611
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 54
-  indentLevel: 0
-  storyText: '"C''mon it has to be here somewhere."'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1148093612
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16921,7 +17361,7 @@ MonoBehaviour:
   itemId: 11
   indentLevel: 0
   storyText: ' {i} A loud grinding can be heard. {wi} The locking mechanism slowly
-    starts to move.{i}'
+    starts to move.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16989,108 +17429,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 308062254}
---- !u!114 &1148093615
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 53
-  indentLevel: 0
-  storyText: '{i} They raise their head as passing wave of devistation reaches them..
-    {/i}'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1148093616
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 52
-  indentLevel: 0
-  storyText: '{i} Time passes by before the figure stops searching, not finding any
-    other ways in. {/i}'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1148093617
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 51
-  indentLevel: 0
-  storyText: '{b} Dead End #2 (Blast off) {/b}'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1148093618
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab54728d981544842843ba6609b9a80a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
-  targetBlock: {fileID: 1148093603}
-  durationOLD: 0
 --- !u!114 &1148093619
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17116,31 +17454,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1148093620
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 48
-  indentLevel: 0
-  text: Keep Searching
-  description: 
-  targetBlock: {fileID: 1148093622}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &1148093621
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17155,7 +17468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: '" Seconds pass by, but no other entrance is revealed."'
+  storyText: '{i} Seconds pass by, but no other entrance is revealed.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17168,37 +17481,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1148093622
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -159.6521
-    y: 392.96878
-    width: 101.515144
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 46
-  blockName: Alt Death
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1148093611}
-  - {fileID: 1148093616}
-  - {fileID: 1148093664}
-  - {fileID: 1148093615}
-  - {fileID: 1148093617}
-  suppressAllAutoSelections: 0
 --- !u!114 &1148093623
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17215,7 +17497,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -136.15706
     y: 313.54678
-    width: 89.393936
+    width: 91.229645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17225,9 +17507,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1148093621}
-  - {fileID: 1148093620}
   - {fileID: 1148093619}
-  - {fileID: 1148093618}
   suppressAllAutoSelections: 0
 --- !u!114 &1148093624
 MonoBehaviour:
@@ -17295,7 +17575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: '{b}Bad End #3 (Blinded by the light){/b}'
+  storyText: '{b}Bad End #1 (Blinded by the light){/b}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17323,7 +17603,7 @@ MonoBehaviour:
   itemId: 41
   indentLevel: 0
   storyText: '{i} Immense heat bursts therough the open threshold and vaporizes the
-    prone figure.. {/i}'
+    prone man. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17378,7 +17658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: '{i}The door flys open as the person stumbles in. {/i}'
+  storyText: '{i}The door flies open as the person stumbles in. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17453,8 +17733,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: '{i}The figure enter and slams the door behind them.{i} {wi} Barely
-    shutting the latch before the blast reached the entrance.'
+  storyText: '{i}The man enters and slams the door behind them. {wi} Barely shutting
+    the latch before the blast reached the entrance.{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17483,7 +17763,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 304.81
     y: 392.5878
-    width: 91.66666
+    width: 92.6763
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17517,7 +17797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.04395
     y: 341.8225
-    width: 112.878784
+    width: 115.82276
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17589,7 +17869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: '{i} The lock comes free and the door opens {i}'
+  storyText: '{i} The lock comes free and the door opens {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17645,7 +17925,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 287.90793
     y: 301.19025
-    width: 118.939384
+    width: 120.886055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17723,8 +18003,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: '{i} The deafining sound of the blast finally reaches the figure as
-    the wind slams them into the door.. {i}'
+  storyText: '{i} The deafining sound of the blast finally reaches the person as
+    the wind slams them into the door. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17751,7 +18031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: '{i} The locking mechanism starts to give way. {i}'
+  storyText: '{i} The locking mechanism starts to give way. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17805,8 +18085,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: '{i} The deafining sound of the blast finally reaches the figure as
-    the wind slams them into the door.. {i}'
+  storyText: '{i} The deafining sound of the blast finally reaches the man as the
+    wind slams them into the door. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17833,7 +18113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: '{i} The locking mechanism starts to give way. {i}'
+  storyText: '{i} The locking mechanism starts to give way. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17889,7 +18169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.693405
     y: 292.0505
-    width: 127.27272
+    width: 128.84265
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17903,25 +18183,6 @@ MonoBehaviour:
   - {fileID: 1148093645}
   - {fileID: 1148093601}
   suppressAllAutoSelections: 0
---- !u!114 &1148093649
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab54728d981544842843ba6609b9a80a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 60
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  targetBlock: {fileID: 1148093603}
-  durationOLD: 0
 --- !u!114 &1148093650
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17999,7 +18260,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -113.30283
     y: 32.84927
-    width: 83.33333
+    width: 84.719696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18089,7 +18350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.3824
     y: 50.58544
-    width: 81.81818
+    width: 82.54972
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18198,20 +18459,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 103
-  indentLevel: 0
---- !u!114 &1148093664
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148093587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 102
   indentLevel: 0
 --- !u!114 &1148093665
 MonoBehaviour:
@@ -18751,11 +18998,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 376.1624, y: 222.95601}
+  scrollPos: {x: 252.65315, y: -46.726578}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 471
-  zoom: 0.43000045
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -18819,7 +19066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.68421
     y: 26.57898
-    width: 152.32547
+    width: 146.62329
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18891,7 +19138,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 88.31579
     y: 160.3158
-    width: 107.36428
+    width: 107.14281
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18918,7 +19165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  text: Go Right
+  text: Right Hallway
   description: 
   targetBlock: {fileID: 1330726539}
   hideIfVisited: 1
@@ -18945,7 +19192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 206.15465
     y: 231.64952
-    width: 138.372
+    width: 136.2337
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18974,7 +19221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  text: Go Left
+  text: Left Hallway
   description: 
   targetBlock: {fileID: 1330726541}
   hideIfVisited: 1
@@ -19001,7 +19248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -52.628834
     y: 229.75093
-    width: 130.62007
+    width: 128.96097
     height: 40
   tint: {r: 0.8745099, g: 0.7725491, b: 0, a: 1}
   useCustomTint: 1
@@ -19084,7 +19331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: '{i}Doors are sparse in the corridor as the person tries to open them.
+  storyText: '{i}Doors are sparse in the corridor as the person tries to open them
     individually.{/i}  '
   description: 
   character: {fileID: 0}
@@ -19141,7 +19388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.06318
     y: 93.47144
-    width: 130.62007
+    width: 127.92202
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19267,7 +19514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: '{i} The sound of a heavy metal object rolling echoes off the walls..
+  storyText: '{i} The sound of a heavy metal object rolling echoes off the walls.
     {/i}'
   description: 
   character: {fileID: 0}
@@ -19297,7 +19544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 226.11545
     y: 325.05002
-    width: 107.36428
+    width: 104.02593
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19353,7 +19600,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 339.2737
     y: 434.26135
-    width: 104.263504
+    width: 102.98697
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19410,7 +19657,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 111.64206
     y: 434.26068
-    width: 127.519295
+    width: 123.766174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19865,7 +20112,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 342.91504
     y: 523.1229
-    width: 139.9224
+    width: 135.19473
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19917,7 +20164,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 358.70447
     y: 623.8476
-    width: 104.263504
+    width: 100.90905
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19975,7 +20222,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.49185
     y: 687.08
-    width: 82.558105
+    width: 82.20776
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20027,8 +20274,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: '{i} The wires spark and send the figure flying back, crashing into
-    the wall.  {/i}'
+  storyText: '{i} The wires spark and send the man flying back, crashing into the
+    wall.  {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -20171,7 +20418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: '{i} The person begins to fiddle with the wires. {/i}'
+  storyText: '{i} The man begins to fiddle with the wires. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -20225,7 +20472,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.2058
     y: 685.6521
-    width: 104.263504
+    width: 104.02593
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20258,7 +20505,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 360.1137
     y: 769.5328
-    width: 81.00772
+    width: 79.09089
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20284,7 +20531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 0
-  storyText: '{i} The junction box spark and send the figure still holding a switch,
+  storyText: '{i} The junction box spark and send the man still holding a switch,
     crashing to the wall.  {/i}'
   description: 
   character: {fileID: 0}
@@ -20411,7 +20658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 0
-  storyText: '{i} The person begins to flip the switches to each room. {/i}'
+  storyText: '{i} The man begins to flip the switches to each room. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -20465,7 +20712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: '{i}  A panel with wires and switches is faceted to the wall. {/i}'
+  storyText: '{i} A panel with wires and switches is faceted to the wall. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -20519,7 +20766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: '{i}  Past the corridor a grey door is seen slightly ajar. {/i}'
+  storyText: '{i} Past the corridor a grey door is seen slightly ajar. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -20571,7 +20818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: '{i}  A narrow corridor connects to the kitchen.. {/i}'
+  storyText: '{i} A narrow corridor connects to the kitchen.. {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -20598,7 +20845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: '{i}  Dated cooking appliances are past in the kitchen area as the figure
+  storyText: '{i} Dated cooking appliances are past in the kitchen area as the figure
     move past. {/i}'
   description: 
   character: {fileID: 0}
@@ -20730,7 +20977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 91.905304
     y: 268.4715
-    width: 90.310036
+    width: 88.44153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21033,7 +21280,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.8222
     y: 57.043633
-    width: 84.10849
+    width: 83.24673
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21203,7 +21450,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &1330726627
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -21217,7 +21464,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1330726628
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -21474,7 +21721,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -886.9004, y: -566.38}
+  m_AnchoredPosition: {x: -1759.2, y: -1056.4}
   m_SizeDelta: {x: 358.57324, y: 67.23249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1439780789
@@ -22609,8 +22856,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 388286121}
   m_HandleRect: {fileID: 388286120}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.581079
+  m_Value: 0.9999997
+  m_Size: 0.58244205
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
