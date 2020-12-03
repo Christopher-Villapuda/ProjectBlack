@@ -7,28 +7,36 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     public static event Action PlayerDied;
-
+    [SerializeField]
     private int maxLives = 3;
-    [SerializeField]
     private int currentLives;
-    private int medkits = 0;
     [SerializeField]
+    private int startingMedkits = 0;
     private int currentMedkits;
     public Text livesShown;
     public Text medkitsShown;
     private void Start()
     {
-        currentMedkits = medkits;
-        currentLives = maxLives;
-        livesShown.text = currentLives.ToString();
-        medkitsShown.text = currentMedkits.ToString();
+        currentMedkits = startingMedkits;
+        currentLives = 3;
+        UpdateHealthText();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (currentMedkits >= 1 && currentLives < maxLives)
+            {
+                Heal(1);
+            }
+        }
     }
 
     public void TakeDamage(int amount)
     {
         currentLives -= amount;
-        livesShown.text = currentLives.ToString();
-        medkitsShown.text = currentMedkits.ToString();
+        UpdateHealthText();
         DeathCheck();
     }
 
@@ -40,23 +48,18 @@ public class PlayerHealth : MonoBehaviour
 
     public void Heal(int amount)
     {
-        if (Input.GetKeyDown("E"))
-        {
-            if (currentMedkits >= 1 && currentLives < maxLives)
-            {
-                currentLives += amount;
-                currentMedkits -= amount;
-                livesShown.text = currentLives.ToString();
-                medkitsShown.text = currentMedkits.ToString();
-            }
 
-        }
-        else
-        {
-            livesShown.text = currentLives.ToString();
-            medkitsShown.text = currentMedkits.ToString();
-        }
-       
+
+        currentLives += amount;
+        currentMedkits -= amount;
+        UpdateHealthText();
+
+    }
+
+    private void UpdateHealthText()
+    {
+        livesShown.text = currentLives.ToString();
+        medkitsShown.text = currentMedkits.ToString();
     }
 
     private void DeathCheck()
