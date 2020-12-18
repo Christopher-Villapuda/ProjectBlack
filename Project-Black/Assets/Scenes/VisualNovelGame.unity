@@ -400,16 +400,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36634681}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 308062255}
-  m_RootOrder: 1
+  m_Father: {fileID: 1439780788}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1663, y: -1015.9}
+  m_AnchoredPosition: {x: 89.400024, y: 0.000061035156}
   m_SizeDelta: {x: 129.56973, y: 123.19723}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36634684
@@ -604,9 +604,10 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1046437698}
   m_Father: {fileID: 308062255}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1468,6 +1469,84 @@ Transform:
   m_Father: {fileID: 1591114098}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &262496179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262496180}
+  - component: {fileID: 262496182}
+  - component: {fileID: 262496181}
+  m_Layer: 5
+  m_Name: Location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &262496180
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262496179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 308062255}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1347.6, y: 1003.2}
+  m_SizeDelta: {x: 1151.303, y: 153.80518}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &262496181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262496179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &262496182
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262496179}
+  m_CullTransparentMesh: 0
 --- !u!1 &274246365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,11 +2190,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 489497666}
-  - {fileID: 36634682}
   - {fileID: 1047276370}
   - {fileID: 1439780788}
   - {fileID: 75207298}
-  - {fileID: 1046437698}
+  - {fileID: 262496180}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2817,7 +2895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &386488531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3092,7 +3170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 568155121}
+  selectedFlowchart: {fileID: 1330726532}
 --- !u!4 &401121802
 Transform:
   m_ObjectHideFlags: 1
@@ -4384,6 +4462,30 @@ GameObject:
   - component: {fileID: 568155414}
   - component: {fileID: 568155401}
   - component: {fileID: 568155323}
+  - component: {fileID: 568155439}
+  - component: {fileID: 568155438}
+  - component: {fileID: 568155437}
+  - component: {fileID: 568155435}
+  - component: {fileID: 568155434}
+  - component: {fileID: 568155430}
+  - component: {fileID: 568155432}
+  - component: {fileID: 568155431}
+  - component: {fileID: 568155436}
+  - component: {fileID: 568155426}
+  - component: {fileID: 568155424}
+  - component: {fileID: 568155421}
+  - component: {fileID: 568155418}
+  - component: {fileID: 568155417}
+  - component: {fileID: 568155420}
+  - component: {fileID: 568155416}
+  - component: {fileID: 568155423}
+  - component: {fileID: 568155422}
+  - component: {fileID: 568155419}
+  - component: {fileID: 568155427}
+  - component: {fileID: 568155425}
+  - component: {fileID: 568155429}
+  - component: {fileID: 568155428}
+  - component: {fileID: 568155433}
   m_Layer: 0
   m_Name: Chase
   m_TagString: Untagged
@@ -4421,7 +4523,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.1002
     y: 303.7437
-    width: 85.82088
+    width: 85.714264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4452,7 +4554,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 172.96039
     y: 305.276
-    width: 120.78888
+    width: 120.535675
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4463,6 +4565,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 568155298}
   - {fileID: 568155297}
+  - {fileID: 568155420}
   - {fileID: 568155203}
   - {fileID: 568155127}
   - {fileID: 568155161}
@@ -4485,7 +4588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 146.2841
     y: 488.74994
-    width: 142.11082
+    width: 141.96423
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4496,6 +4599,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 568155283}
   - {fileID: 568155278}
+  - {fileID: 568155416}
   - {fileID: 568155198}
   - {fileID: 568155128}
   - {fileID: 568155158}
@@ -4517,7 +4621,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -290.19626
     y: 395.3205
-    width: 108.84859
+    width: 108.92854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4548,7 +4652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 631.2323
     y: 384.85196
-    width: 107.995705
+    width: 106.24997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4557,6 +4661,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155417}
   - {fileID: 568155199}
   - {fileID: 568155153}
   - {fileID: 568155350}
@@ -4577,7 +4682,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 513.34344
     y: 382.75702
-    width: 97.76117
+    width: 98.214264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4588,6 +4693,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 568155285}
   - {fileID: 568155284}
+  - {fileID: 568155418}
   - {fileID: 568155200}
   - {fileID: 568155129}
   - {fileID: 568155155}
@@ -4610,7 +4716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 325.1887
     y: 386.54178
-    width: 157.46263
+    width: 158.03566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4639,18 +4745,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 166.36826
-    y: 388.66956
-    width: 126.759026
+    x: 164.55008
+    y: 386.85138
+    width: 113.39282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 22
-  blockName: Intersection 2
+  blockName: Hallway B2
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 568155299}
+  - {fileID: 568155421}
   - {fileID: 568155204}
   - {fileID: 568155245}
   - {fileID: 568155244}
@@ -4686,7 +4793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -147.49527
     y: 393.69766
-    width: 113.96585
+    width: 113.39282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4698,6 +4805,7 @@ MonoBehaviour:
   - {fileID: 568155197}
   - {fileID: 568155311}
   - {fileID: 568155309}
+  - {fileID: 568155423}
   - {fileID: 568155207}
   - {fileID: 568155372}
   - {fileID: 568155371}
@@ -4718,18 +4826,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 22.41978
-    y: 396.334
-    width: 111.40722
+    x: 2.419796
+    y: 390.8795
+    width: 144.6428
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 20
-  blockName: MainHall 2
+  blockName: Hall B Entrance 2
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 568155312}
+  - {fileID: 568155424}
   - {fileID: 568155208}
   - {fileID: 568155126}
   - {fileID: 568155229}
@@ -4761,7 +4870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 337.2572
     y: -55.693604
-    width: 75.58634
+    width: 75.892845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4770,6 +4879,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155433}
   - {fileID: 568155216}
   - {fileID: 568155148}
   - {fileID: 568155277}
@@ -4792,7 +4902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.02188
     y: -54.517105
-    width: 110.55434
+    width: 110.71425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4802,6 +4912,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 568155324}
+  - {fileID: 568155434}
   - {fileID: 568155217}
   - {fileID: 568155181}
   - {fileID: 568155180}
@@ -4822,7 +4933,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.11423
     y: 197.94019
-    width: 78.99785
+    width: 79.46427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4831,6 +4942,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155428}
   - {fileID: 568155211}
   - {fileID: 568155270}
   - {fileID: 568155269}
@@ -4854,7 +4966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 356.23846
     y: 128.00742
-    width: 85.82088
+    width: 85.714264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4863,6 +4975,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155429}
   - {fileID: 568155210}
   - {fileID: 568155273}
   - {fileID: 568155272}
@@ -4886,7 +4999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 185.83492
     y: 134.4769
-    width: 131.87628
+    width: 132.14282
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4896,6 +5009,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 568155319}
+  - {fileID: 568155430}
   - {fileID: 568155212}
   - {fileID: 568155179}
   - {fileID: 568155178}
@@ -4917,7 +5031,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -280.91827
     y: 37.983498
-    width: 98.614044
+    width: 99.10712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4946,7 +5060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 651.5182
     y: 28.017359
-    width: 97.76117
+    width: 96.42854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4955,6 +5069,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155431}
   - {fileID: 568155213}
   - {fileID: 568155400}
   - {fileID: 568155399}
@@ -4981,7 +5096,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 524.4697
     y: 31.409119
-    width: 87.526634
+    width: 88.39284
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4992,6 +5107,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 568155322}
   - {fileID: 568155321}
+  - {fileID: 568155432}
   - {fileID: 568155214}
   - {fileID: 568155275}
   - {fileID: 568155406}
@@ -5014,7 +5130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.10602
     y: 36.47748
-    width: 147.22809
+    width: 148.21423
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5043,16 +5159,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 172.33553
     y: 35.294556
-    width: 116.52448
+    width: 106.24997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 8
-  blockName: Intersection
+  blockName: Hallway B
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 568155326}
+  - {fileID: 568155435}
   - {fileID: 568155218}
   - {fileID: 568155192}
   - {fileID: 568155190}
@@ -5075,7 +5192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 37.87081
     y: 304.25537
-    width: 85.82088
+    width: 86.607124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5111,7 +5228,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 34.611794
     y: 228.1739
-    width: 87.526634
+    width: 88.39284
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5129,6 +5246,7 @@ MonoBehaviour:
   - {fileID: 568155388}
   - {fileID: 568155257}
   - {fileID: 568155387}
+  - {fileID: 568155425}
   - {fileID: 568155256}
   - {fileID: 568155255}
   - {fileID: 568155254}
@@ -5150,7 +5268,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.703735
     y: 134.36066
-    width: 102.02556
+    width: 103.571396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5161,7 +5279,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 568155318}
   - {fileID: 568155390}
+  - {fileID: 568155427}
   - {fileID: 568155389}
+  - {fileID: 568155426}
   - {fileID: 568155209}
   - {fileID: 568155266}
   - {fileID: 568155265}
@@ -5216,7 +5336,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -141.85364
     y: 34.36364
-    width: 103.731316
+    width: 103.571396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5225,6 +5345,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155436}
   - {fileID: 568155327}
   - {fileID: 568155221}
   - {fileID: 568155185}
@@ -5246,17 +5367,18 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 22.785706
-    y: 35.360657
-    width: 101.17268
+    y: 33.721313
+    width: 134.82138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 2
-  blockName: MainHall
+  blockName: Hall B Entrance
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 568155328}
+  - {fileID: 568155437}
   - {fileID: 568155222}
   - {fileID: 568155235}
   - {fileID: 568155195}
@@ -5283,7 +5405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 12.038307
     y: -60.724136
-    width: 124.200386
+    width: 125.892815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5298,10 +5420,12 @@ MonoBehaviour:
   - {fileID: 568155325}
   - {fileID: 568155323}
   - {fileID: 568155320}
+  - {fileID: 568155439}
   - {fileID: 568155139}
   - {fileID: 568155137}
   - {fileID: 568155408}
   - {fileID: 568155329}
+  - {fileID: 568155438}
   - {fileID: 568155223}
   - {fileID: 568155135}
   - {fileID: 568155134}
@@ -5322,7 +5446,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 18.36364
     y: -147.81818
-    width: 101.17268
+    width: 100.89283
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5354,11 +5478,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 287.9794, y: 166.19246}
+  scrollPos: {x: 296.19455, y: 419.15106}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 463
-  zoom: 0.6700003
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5366,9 +5490,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 568155151}
-  selectedCommands:
-  - {fileID: 568155407}
+  - {fileID: 568155120}
+  selectedCommands: []
   variables:
   - {fileID: 568155145}
   - {fileID: 568155143}
@@ -5411,7 +5534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 1
-  text: Intersection
+  text: Hallway B
   description: 
   targetBlock: {fileID: 568155100}
   hideIfVisited: 0
@@ -6195,7 +6318,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 28.899532
     y: 492.13766
-    width: 90.085266
+    width: 86.607124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6224,7 +6347,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146.16576
     y: 320.05154
-    width: 88.37952
+    width: 87.499985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6938,7 +7061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.62027
     y: -32.675453
-    width: 81.55649
+    width: 80.357124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7318,7 +7441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 1
-  text: Auxilary Room
+  text: Auxiliary Room
   description: 
   targetBlock: {fileID: 568155094}
   hideIfVisited: 0
@@ -7974,7 +8097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  text: Auxilary Room
+  text: Auxiliary Room
   description: 
   targetBlock: {fileID: 568155104}
   hideIfVisited: 0
@@ -8024,7 +8147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 1
-  text: Intersection
+  text: Hallway B
   description: 
   targetBlock: {fileID: 568155112}
   hideIfVisited: 0
@@ -8920,7 +9043,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 316.64526
     y: -173.707
-    width: 81.55649
+    width: 82.14284
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8982,7 +9105,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 505.5625
     y: 631.93115
-    width: 84.11512
+    width: 83.92856
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9093,7 +9216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 1
-  text: Intersection
+  text: Hallway B
   description: 
   targetBlock: {fileID: 568155112}
   hideIfVisited: 0
@@ -9602,7 +9725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 158
   indentLevel: 1
-  text: AuxilaryRoom
+  text: AuxiliaryRoom
   description: 
   targetBlock: {fileID: 568155094}
   hideIfVisited: 0
@@ -10894,7 +11017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 303.92242
     y: 490.26202
-    width: 92.643906
+    width: 89.28569
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -11098,7 +11221,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.51688
     y: 304.85223
-    width: 105.43707
+    width: 104.46426
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11107,6 +11230,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155419}
   - {fileID: 568155296}
   - {fileID: 568155288}
   - {fileID: 568155295}
@@ -11407,7 +11531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -433.60007
     y: 399.27127
-    width: 122.49463
+    width: 121.428535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11416,6 +11540,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 568155422}
   - {fileID: 568155308}
   - {fileID: 568155307}
   - {fileID: 568155306}
@@ -12018,7 +12143,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -157.24168
     y: 227.57239
-    width: 98.614044
+    width: 95.53569
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12087,7 +12212,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 155.74544
     y: 584.77527
-    width: 117.377365
+    width: 115.178535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12253,7 +12378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 408.07877
     y: 492.27527
-    width: 80.70361
+    width: 79.46427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12394,7 +12519,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 510.07874
     y: 490.27527
-    width: 104.5842
+    width: 103.571396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12535,7 +12660,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 640.41205
     y: 488.77527
-    width: 114.81873
+    width: 111.60711
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12676,7 +12801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 195.9324
     y: 239.39055
-    width: 82.40936
+    width: 81.249985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12882,7 +13007,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -142.77518
     y: 491.97348
-    width: 120.78888
+    width: 118.74996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -13170,7 +13295,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -302.7881
     y: 296.22385
-    width: 109.70146
+    width: 108.03568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -13454,7 +13579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 329.99838
     y: 227.30281
-    width: 92.643906
+    width: 91.07141
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -14488,6 +14613,486 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 308062254}
+--- !u!114 &568155416
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 427
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Common Room
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155417
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 425
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Engine Controls
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155418
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 424
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Engine Room
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155419
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 430
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155420
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 426
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Auxiliary room
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155421
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 423
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Hallway B
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155422
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 429
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155423
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 428
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Bathroom
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155424
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 422
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Hallway B Entrance
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155425
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 432
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155426
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 421
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155427
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 431
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Underground Tunnels
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155428
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 434
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155429
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 433
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155430
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 417
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Common Room
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155431
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 419
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Engine Controls
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155432
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 418
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Engine Room
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155433
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 435
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155434
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 416
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Auxiliary Room
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155435
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 415
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Hallway B
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155436
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 420
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Bathroom
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155437
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 414
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Hallway B Entrance
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 413
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Corridor B
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &568155439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568155091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 412
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Hallway A
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!1 &569486974
 GameObject:
   m_ObjectHideFlags: 0
@@ -15677,7 +16282,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 745593197}
   m_HandleRect: {fileID: 745593196}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -15835,8 +16440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0.00021362305}
+  m_SizeDelta: {x: 0, y: -0.0004272461}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &858929336
 MonoBehaviour:
@@ -16966,16 +17571,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046437697}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 308062255}
-  m_RootOrder: 5
+  m_Father: {fileID: 75207298}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1491, y: -889.85}
+  m_AnchoredPosition: {x: 98.10022, y: 0.15008545}
   m_SizeDelta: {x: 87.26663, y: 123.77456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046437699
@@ -17051,7 +17656,7 @@ RectTransform:
   m_Children:
   - {fileID: 1118890171}
   m_Father: {fileID: 308062255}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17803,6 +18408,10 @@ GameObject:
   - component: {fileID: 1148093600}
   - component: {fileID: 1148093603}
   - component: {fileID: 1148093602}
+  - component: {fileID: 1148093649}
+  - component: {fileID: 1148093622}
+  - component: {fileID: 1148093620}
+  - component: {fileID: 1148093618}
   m_Layer: 0
   m_Name: Introduction
   m_TagString: Untagged
@@ -17847,7 +18456,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.4375
     y: 67.30114
-    width: 95.90161
+    width: 95.04201
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17857,8 +18466,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1148093654}
-  - {fileID: 1148093594}
+  - {fileID: 1148093649}
+  - {fileID: 1148093622}
+  - {fileID: 1148093620}
+  - {fileID: 1148093618}
   - {fileID: 1148093665}
+  - {fileID: 1148093594}
   - {fileID: 1148093599}
   - {fileID: 1148093598}
   - {fileID: 1148093659}
@@ -17894,11 +18507,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 357.8106, y: 63.655968}
+  scrollPos: {x: 130.93523, y: 103.11062}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 479
-  zoom: 0.6100004
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -17908,7 +18521,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1148093589}
   selectedCommands:
-  - {fileID: 1148093603}
+  - {fileID: 1148093618}
   variables: []
   description: 
   stepPause: 0
@@ -18017,7 +18630,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.69016
     y: 164.29115
-    width: 108.07959
+    width: 107.81512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18272,7 +18885,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -171.96008
     y: 154.16287
-    width: 157.72827
+    width: 160.25209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18475,6 +19088,26 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 308062254}
+--- !u!114 &1148093618
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148093587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  targetTextObject: {fileID: 1046437697}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1148093619
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18500,6 +19133,26 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1148093620
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148093587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  targetTextObject: {fileID: 75207297}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1148093621
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18527,6 +19180,26 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1148093622
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148093587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  indentLevel: 0
+  targetTextObject: {fileID: 36634681}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1148093623
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18543,7 +19216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -136.15706
     y: 313.54678
-    width: 88.40747
+    width: 88.99159
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18809,7 +19482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 304.81
     y: 392.5878
-    width: 90.281006
+    width: 90.33613
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18843,7 +19516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.04395
     y: 341.8225
-    width: 111.82666
+    width: 112.520996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18971,7 +19644,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 287.90793
     y: 301.19025
-    width: 117.447266
+    width: 117.22688
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19215,7 +19888,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.693405
     y: 292.0505
-    width: 125.87818
+    width: 125.294106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19229,6 +19902,26 @@ MonoBehaviour:
   - {fileID: 1148093645}
   - {fileID: 1148093601}
   suppressAllAutoSelections: 0
+--- !u!114 &1148093649
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148093587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 0
+  targetTextObject: {fileID: 1439780787}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &1148093650
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19306,7 +19999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -113.30283
     y: 32.84927
-    width: 82.786865
+    width: 82.94118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19398,7 +20091,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.3824
     y: 50.58544
-    width: 80.91333
+    width: 80.92436
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19425,7 +20118,7 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   amount: {x: 1, y: 1}
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &1148093659
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19458,7 +20151,7 @@ MonoBehaviour:
   itemId: 72
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: 710f3d3f6bbf67d4dae5595d96569b96, type: 3}
-  volume: 0.1
+  volume: 0.076
   waitUntilFinished: 0
 --- !u!114 &1148093661
 MonoBehaviour:
@@ -19475,7 +20168,7 @@ MonoBehaviour:
   itemId: 74
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: ed76fcc32dfd2254f980905d6711247e, type: 3}
-  volume: 0.31
+  volume: 0.1
   waitUntilFinished: 0
 --- !u!114 &1148093662
 MonoBehaviour:
@@ -19525,7 +20218,7 @@ MonoBehaviour:
   musicClip: {fileID: 8300000, guid: 7b4a023915a22cf4a93eac1bd122fcbf, type: 3}
   atTime: 0
   loop: 1
-  fadeDuration: 3
+  fadeDuration: 1
 --- !u!1 &1174369503
 GameObject:
   m_ObjectHideFlags: 0
@@ -20270,6 +20963,22 @@ GameObject:
   - component: {fileID: 1330726647}
   - component: {fileID: 1330726646}
   - component: {fileID: 1330726648}
+  - component: {fileID: 1330726657}
+  - component: {fileID: 1330726656}
+  - component: {fileID: 1330726655}
+  - component: {fileID: 1330726654}
+  - component: {fileID: 1330726653}
+  - component: {fileID: 1330726652}
+  - component: {fileID: 1330726651}
+  - component: {fileID: 1330726650}
+  - component: {fileID: 1330726649}
+  - component: {fileID: 1330726658}
+  - component: {fileID: 1330726659}
+  - component: {fileID: 1330726660}
+  - component: {fileID: 1330726664}
+  - component: {fileID: 1330726663}
+  - component: {fileID: 1330726662}
+  - component: {fileID: 1330726661}
   m_Layer: 0
   m_Name: BunkerEntrance
   m_TagString: Untagged
@@ -20290,11 +20999,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -62.42334, y: -403.61935}
+  scrollPos: {x: 183.69635, y: 90.09334}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 471
-  zoom: 1
+  zoom: 0.5800003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -20302,8 +21011,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1330726573}
-  selectedCommands: []
+  - {fileID: 1330726534}
+  selectedCommands:
+  - {fileID: 1330726661}
   variables: []
   description: 
   stepPause: 0
@@ -20358,7 +21068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.68421
     y: 26.57898
-    width: 141.42857
+    width: 141.62558
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20371,14 +21081,20 @@ MonoBehaviour:
   - {fileID: 1330726615}
   - {fileID: 1330726572}
   - {fileID: 1330726550}
+  - {fileID: 1330726659}
   - {fileID: 1330726571}
   - {fileID: 1330726533}
+  - {fileID: 1330726658}
   - {fileID: 1330726551}
   - {fileID: 1330726570}
   - {fileID: 1330726634}
   - {fileID: 1330726569}
-  - {fileID: 1330726633}
   - {fileID: 1330726549}
+  - {fileID: 1330726664}
+  - {fileID: 1330726663}
+  - {fileID: 1330726662}
+  - {fileID: 1330726661}
+  - {fileID: 1330726633}
   - {fileID: 1330726536}
   suppressAllAutoSelections: 0
 --- !u!4 &1330726535
@@ -20432,7 +21148,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 88.31579
     y: 160.3158
-    width: 104.85715
+    width: 104.187164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20489,7 +21205,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 206.15465
     y: 231.64952
-    width: 132.2857
+    width: 131.77336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20546,7 +21262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -52.628834
     y: 229.75093
-    width: 125.42857
+    width: 124.876816
     height: 40
   tint: {r: 0.8745099, g: 0.7725491, b: 0, a: 1}
   useCustomTint: 1
@@ -20558,6 +21274,7 @@ MonoBehaviour:
   - {fileID: 1330726545}
   - {fileID: 1330726624}
   - {fileID: 1330726566}
+  - {fileID: 1330726656}
   - {fileID: 1330726544}
   - {fileID: 1330726642}
   - {fileID: 1330726543}
@@ -20686,7 +21403,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.06318
     y: 91.65326
-    width: 123.71429
+    width: 123.891594
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20700,6 +21417,7 @@ MonoBehaviour:
   - {fileID: 1330726632}
   - {fileID: 1330726631}
   - {fileID: 1330726630}
+  - {fileID: 1330726657}
   - {fileID: 1330726619}
   - {fileID: 1330726547}
   suppressAllAutoSelections: 0
@@ -20845,7 +21563,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 227.75479
     y: 325.05002
-    width: 132.85715
+    width: 132.75858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20856,6 +21574,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1330726626}
   - {fileID: 1330726625}
+  - {fileID: 1330726655}
   - {fileID: 1330726602}
   - {fileID: 1330726639}
   - {fileID: 1330726638}
@@ -20903,7 +21622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 370.2737
     y: 436.26135
-    width: 100.28571
+    width: 100.24628
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20913,6 +21632,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1330726600}
+  - {fileID: 1330726652}
   - {fileID: 1330726613}
   - {fileID: 1330726599}
   - {fileID: 1330726598}
@@ -20961,7 +21681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 90.64206
     y: 406.26068
-    width: 120.28571
+    width: 119.95071
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20970,8 +21690,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1330726654}
   - {fileID: 1330726562}
   - {fileID: 1330726561}
+  - {fileID: 1330726660}
   - {fileID: 1330726601}
   - {fileID: 1330726560}
   - {fileID: 1330726559}
@@ -21279,8 +22001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: '{i} After a minute of walking in the darkness a branch in the path
-    appeared. {/i}'
+  storyText: '{i} After a minute of walking in the around a branch in the path appeared.
+    {/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -21418,7 +22140,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 342.91504
     y: 523.1229
-    width: 130.57143
+    width: 130.78815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21427,6 +22149,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1330726651}
   - {fileID: 1330726597}
   - {fileID: 1330726596}
   - {fileID: 1330726595}
@@ -21470,7 +22193,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 358.70447
     y: 623.8476
-    width: 98
+    width: 98.27584
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21481,6 +22204,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1330726627}
   - {fileID: 1330726612}
+  - {fileID: 1330726650}
   - {fileID: 1330726610}
   - {fileID: 1330726594}
   - {fileID: 1330726593}
@@ -21528,7 +22252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.49185
     y: 687.08
-    width: 80.85715
+    width: 80.541855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21778,7 +22502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.2058
     y: 685.6521
-    width: 102
+    width: 101.23151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21811,7 +22535,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 360.1137
     y: 769.5328
-    width: 77.42857
+    width: 77.5862
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21821,6 +22545,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1330726609}
+  - {fileID: 1330726649}
   - {fileID: 1330726618}
   suppressAllAutoSelections: 0
 --- !u!114 &1330726588
@@ -22283,7 +23008,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 91.905304
     y: 268.4715
-    width: 86.57143
+    width: 86.453186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22588,7 +23313,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.8222
     y: 57.043633
-    width: 81.42857
+    width: 81.52708
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23239,7 +23964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 247.70905
     y: 432.61935
-    width: 101.42857
+    width: 101.23151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23248,6 +23973,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1330726653}
   - {fileID: 1330726648}
   - {fileID: 1330726647}
   - {fileID: 1330726646}
@@ -23327,6 +24053,317 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &1330726649
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 304
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726650
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 303
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Electrical Room
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726651
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 302
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Corridor A
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726652
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 301
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726653
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 300
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Mess Hall
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726654
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 299
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726655
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 298
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Mess Hall
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726656
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 297
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Hallway A
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726657
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 296
+  indentLevel: 0
+  targetTextObject: {fileID: 262496179}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Main Entrance
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726658
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 305
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: d4d6da54936721340bcd5e4ca3dbc22b, type: 3}
+  volume: 0.6
+  waitUntilFinished: 1
+--- !u!114 &1330726659
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 306
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 73ec7fafce561004bb2e6dda35aedfce, type: 3}
+  volume: 0.3
+  waitUntilFinished: 0
+--- !u!114 &1330726660
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 307
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 490c623e33b33bf488780423dd5995e4, type: 3}
+  volume: 0.5
+  waitUntilFinished: 0
+--- !u!114 &1330726661
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 440
+  indentLevel: 0
+  targetTextObject: {fileID: 1046437697}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 0
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726662
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 439
+  indentLevel: 0
+  targetTextObject: {fileID: 75207297}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: Medkits
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726663
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 438
+  indentLevel: 0
+  targetTextObject: {fileID: 36634681}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 3
+  description: 
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1330726664
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330726531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 437
+  indentLevel: 0
+  targetTextObject: {fileID: 1439780787}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: HP
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!1 &1335300027
 GameObject:
   m_ObjectHideFlags: 0
@@ -23928,9 +24965,10 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 36634682}
   m_Father: {fileID: 308062255}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -24877,7 +25915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.300004, y: 0}
+  m_AnchoredPosition: {x: -0.000012397766, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1772352672
